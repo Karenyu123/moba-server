@@ -1,0 +1,44 @@
+Arguments: 
+  D:\WWW\test\node.exe D:\Program Files\bin\yarn.js add bcryptjs
+
+PATH: 
+  D:\Program Files\ruby\Ruby26-x64\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\Program Files\Git\cmd;D:\WWW\test\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;D:\Program Files\mongodb\bin;D:\Program Files\CloudMusic\platform-tools;D:\Program Files\CloudMusic\docs\sdk;D:\Program Files\bin\;D:\test\jdk;D:\Program Files\sdk;D:\Program Files\sdk\platform-tools;D:\Program Files\redis\src;D:\Program Files\redis\;D:\anaconda;D:\anaconda\Library\mingw-w64\bin;D:\anaconda\Library\usr\bin;D:\anaconda\Library\bin;D:\anaconda\Scripts;C:\Users\喻小艳\AppData\Local\Microsoft\WindowsApps;D:\PyCharm Community Edition 2018.3.2\bin;;D:\Program Files\WebStorm 2019.1.1\bin;;C:\Users\喻小艳\AppData\Roaming\npm;D:\WWW\test\node_global;D:\WWW\test\node_global\node_modules;D:\Program Files\mongodb\bin;D:\Program Files\CloudMusic\docs\sdk;D:\Program Files\CloudMusic\platform-tools;C:\Users\喻小艳\AppData\Local\Yarn\bin;D:\test\jdk;D:\Program Files\sdk;D:\Program Files\sdk\platform-tools;D:\Program Files\redis\src;
+
+Yarn version: 
+  1.17.3
+
+Node version: 
+  10.15.3
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: ENOENT: no such file or directory, copyfile 'C:\Users\喻小艳\AppData\Local\Yarn\Cache\v4\npm-isarray-1.0.0-bb935d48582cba168c06834957a54a3e07124f11\node_modules\isarray\.travis.yml' -> 'D:\vue\moba\server\node_modules\bl\node_modules\isarray\.travis.yml'
+
+npm manifest: 
+  {
+    "name": "server",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "start": "nodemon index.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "cors": "^2.8.5",
+      "express": "^4.17.1",
+      "inflection": "^1.12.0",
+      "mongoose": "^5.9.5",
+      "multer": "^1.4.2"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
